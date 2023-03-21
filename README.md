@@ -4,5 +4,5 @@ Web paint editor full wanilla js
 
 ### TODO
 
-- Implement lines
+- Implement lines history
 - webstorage with png
