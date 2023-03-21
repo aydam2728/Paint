@@ -118,4 +118,22 @@ window.addEventListener('keydown', function (event) {
     }
 });
 
+// resize the canvas to mouse position on bottom canvas click from window event
+window.addEventListener('click', function (event) {
+    // to the height of the window
+    if (event.clientY > canvas.height) {
+        canvas.height = event.clientY;
+    }
+    // to the width of the window
+    if (event.clientX > canvas.width) {
+        canvas.width = event.clientX;
+    }
+    var initial = {
+        X: 0,
+        Y: 0
+    };
+});
+
+
+
 
