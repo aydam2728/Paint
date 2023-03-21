@@ -132,6 +132,7 @@ window.addEventListener('click', function (event) {
         X: 0,
         Y: 0
     };
+    redraw();
 });
 
 
